@@ -1,0 +1,20 @@
+{
+    "name": "ipl",
+    "version": "1.0.0",
+    "description": "IPL Data Visualization",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "http-server",
+        "ipl": "node index.js"
+    },
+    "keywords": [
+        "ipl"
+    ],
+    "author": "rakeshtalukdar5@gmail.com",
+    "license": "ISC",
+    "dependencies": {
+        "csvtojson": "^2.0.10",
+        "http-server": "^0.12.1"
+    }
+}
